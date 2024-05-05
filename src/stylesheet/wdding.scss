@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    background-image: url('../image/pexels-photo-17292686.webp');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top;
+    background-color: rgb(15, 14, 14);
+}
+.wedding{
+   
+    
+    display: flex;
+   flex-direction: column;
+    height: 80vh;
+    //background-color: #fff;
+    justify-content: space-between;
+    
+}
+
+.gob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    }
+    .gob > p{
+        margin: 0;
+        font-size:40px;
+    }
+    .img{
+        mix-blend-mode: multiply;
+        box-shadow: 1px 1px 19px black;
+        background-color: transparent;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .upload-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-file-upload {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #c7d1db;
+        color: #4250b0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .cta{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        p{
+            margin: 0;
+            color: #a8a9aa;
+            text-align: center;
+        }
+        h2{
+            margin: 0;
+            color: rgb(211, 232, 232);
+        }
+      }
+      .custom-file-upload:hover {
+        background-color: #ebeef1;
+      }
+      
+      .custom-file-upload + input[type="file"] {
+        display: none;
+      }
+      
